@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="lo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phengphouthasin Bounyalath - Junior Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Noto Sans Lao Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome ສຳລັບໄອຄອນ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span>PB</span>.Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">ໜ້າແລກ</a></li>
+                <li><a href="#about">ກ່ຽວກັບຂ້ອຍ</a></li>
+                <li><a href="#skills">ທັກສະ</a></li>
+                <li><a href="#projects">ຜົນງານ</a></li>
+                <li><a href="#contact">ຕິດຕໍ່</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section (ແນະນຳຕົວ + Code Box) -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h3>ສະບາຍດີ, ຂ້ອຍຊື່</h3>
+                <h1>Phengphouthasin Bounyalath</h1>
+                <h2>Junior Front-End Developer</h2>
+                <p>ມີຄວາມຕັ້ງໃຈ ແລະ ເອົາໃຈໃສ່ໃນລາຍລະອຽດ, ໃນການສ້າງເວັບໄຊທີ່ຮອງຮັບທຸກໜ້າຈໍ (Responsive) ດ້ວຍ HTML, CSS
+                    ແລະ JavaScript ພ້ອມຮຽນຮູ້ ແລະ ພັດທະນາໂຄງການໃໝ່ໆຢ່າງຕໍ່ເນື່ອງ.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">ເບິ່ງຜົນງານຂອງຂ້ອຍ</a>
+                    <a href="#contact" class="btn secondary">ຕິດຕໍ່ຈ້າງງານ</a>
+                </div>
+            </div>
+
+            <!-- Code Block Box (ເພີ່ມเข้ามาใหม่ตามรูป) -->
+            <div class="hero-code-box">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="code-title">profile.js</span>
+                </div>
+                <div class="code-body">
+                    <pre><code><span class="keyword">const</span> me = {
+  name: <span class="string">"Phengphouthasin"</span>,
+  role: <span class="string">"Junior Front-End Developer"</span>,
+  stack: [<span class="string">"HTML5"</span>, <span class="string">"CSS3"</span>, <span class="string">"JavaScript"</span> , <span class="string">"Tailwind CSS"</span> , <span class="string">"React"</span> ,<span class="string">"Next.js"</span>],
+  tools: [<span class="string">"Git"</span>, <span class="string">"GitHub"</span>, <span class="string">"VS Code"</span>],
+  location: <span class="string">"Champasack, Laos"</span>,
+  openToWork: <span class="boolean">true</span>
+};</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">ກ່ຽວກັບຂ້ອຍ</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>ຈົບການສຶກສາດ້ານເຕັກໂນໂລຊີສາສານເທດ (Information Technology) ດ້ວຍເກຣດສະເລ່ຍ 3.84 (Excellent)
+                        ມີປະສົບການເຮັດວຽກຫຼາກຫຼາຍດ້ານ ທັງການບໍລິຫານຈັດການ, ການຕະຫຼາດ ແລະ ການສ້າງສັນຄອນເທນ
+                        ເຊິ່ງຊ່ວຍເສີມສ້າງທັກສະການສື່ສານ, ການເຮັດວຽກເປັນທີມ ແລະ ການແກ້ໄຂບັນຫາສະເພາະໜ້າ
+                        ກ່ອນຈະມຸ່ງໝັ້ນພັດທະນາຕົນເອງສູ່ສາຍງານ Front-End Developer ຢ່າງເຕັມຕົວ.</p>
+                    <div class="personal-info">
+                        <p><i class="fas fa-phone"></i> 020 9140 3284</p>
+                        <p><i class="fas fa-envelope"></i> bounyalathphengphoutthasin@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> ແຂວງຈຳປາສັກ, ປະເທດລາວ</p>
+                    </div>
+                </div>
+                <div class="about-education">
+                    <h3>ການສຶກສາ & ປະຫວັດຫຍໍ້</h3>
+                    <ul>
+                        <li>
+                            <strong>Hua Qiao Technology College</strong> (2020-2023)<br>
+                            ສາຂາ Information Technology (GPA: 3.84 / Excellent)
+                        </li>
+                        <li>
+                            <strong>Da Nang University of Education, Vietnam</strong> (2018-2020)<br>
+                            ສາຂາ Information Technology
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (ທັກສະ) -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">ທັກສະຄວາມສາມາດ</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Front-End Development</h3>
+                    <p> HTML5 <br>
+                        CSS3 <br>
+                        JavaScript <br>
+                        Responsive Web Design <br>
+                        Tailwind CSS <br>
+                        React (basic) <br>
+                        Next.js (basic)<br>
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Version Control</h3>
+                    <p> Git <br>
+                        GitHub <br>
+                        Commit/Push/Pull/Branch</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Development Tools</h3>
+                    <p>Visual Studio Code, Chrome DevTools, Browser Developer Tools</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Soft Skills</h3>
+                    <p>Problem Solving, Communication, Teamwork, Fast Learner, Time Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (ຜົນງານ) -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">ຜົນງານເດັ່ນ (Projects)</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <span class="project-num" aria-hidden="true">01</span>
+                    <div class="project-info">
+                        <h3><span class="num">01.</span> Responsive Restaurant Website</h3>
+                        <p>ສ້າງເວັບໄຊຮ້ານອາຫານທີ່ປັບຂະໜາດຕາມໜ້າຈໍອັດຕະໂນມັດ ໂດຍໃຊ້ HTML, CSS ແລະ JavaScript. ອອກແບບສ່ວນນຳທາງ (Navigation), ເມນູ, ສ່ວນຫົວ (Hero) ແລະ ສ່ວນຕິດຕໍ່ (Contact).</p>
+                        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+                    </div>
+                    <div class="project-links">
+                        <a href="code.html?p=restaurant" class="btn outline">View code</a>
+                        <a href="projects/restaurant/index.html" class="btn primary" target="_blank" rel="noopener">Live demo →</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <span class="project-num" aria-hidden="true">02</span>
+                    <div class="project-info">
+                        <h3><span class="num">02.</span> Interactive Login Form</h3>
+                        <p>ສ້າງໜ້າອິນເຕີເຟສເຂົ້າສູ່ລະບົບໂດຍໃຊ້ HTML, CSS ແລະ JavaScript ພ້ອມລະບົບກວດສອບຄວາມຖືກຕ້ອງຂອງຟອມຂັ້ນພື້ນຖານ (Basic form validation) ແລະ ການຕອບຮັບແບບໂຕ້ຕອບ.</p>
+                        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+                    </div>
+                    <div class="project-links">
+                        <a href="code.html?p=login" class="btn outline">View code</a>
+                        <a href="projects/login/index.html" class="btn primary" target="_blank" rel="noopener">Live demo →</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <span class="project-num" aria-hidden="true">03</span>
+                    <div class="project-info">
+                        <h3><span class="num">03.</span> JavaScript Mini Project</h3>
+                        <p>ສ້າງເວັບແອັບພລິເຄຊັນຂະໜາດນ້ອຍໂດຍໃຊ້ JavaScript ຝຶກຝົນການຈັດການ DOM (DOM manipulation) ແລະ ການຈັດການເຫດການ (Event handling).</p>
+                        <div class="tags"><span class="tag">JavaScript</span><span class="tag">DOM</span></div>
+                    </div>
+                    <div class="project-links">
+                        <a href="code.html?p=mini" class="btn outline">View code</a>
+                        <a href="projects/mini/index.html" class="btn primary" target="_blank" rel="noopener">Live demo →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (ຕິດຕໍ່) -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">ຕິດຕໍ່ຂ້ອຍ</h2>
+            <p class="contact-subtitle">ຕ້ອງການສອບຖາມຂໍ້ມູນເພີ່ມເຕີມ
+                ສາມາດຕິດຕໍ່ຂ້ອຍໄດ້ຜ່ານຊ່ອງທາງດ້ານລຸ່ມນີ້.</p>
+            <div class="contact-wrapper">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>ເບີໂທລະສັບ</h4>
+                    <p>020 9140 3284</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h4>ອີເມວ</h4>
+                    <p>bounyalathphengphoutthasin@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>ທີ່ຢູ່</h4>
+                    <p>ແຂວງຈຳປາສັກ, ປະເທດລາວ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Phengphouthasin Bounyalath. All Rights Reserved.</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
